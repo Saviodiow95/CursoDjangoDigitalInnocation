@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "head-include.htm" %}
+</head>
+<body>
+    <div align="right">
+        <a href="/logout">logout</a>
+    </div>
+
+    {% block main%} {% endblock %}
+
+    {% include "footer-include.html" %}
+</body>
+</html>
